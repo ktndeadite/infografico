@@ -3,136 +3,230 @@
 <html lang="pt">
     
 <head>
+    <link rel="stylesheet" type="text/css"href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="js/charts/loader.js"></script>
+    <script src="js/charts/my-charts.js"></script>
     
     <meta charset="UTF-8">
     
     <title>Reciclagem no Brasil e a desinformação</title>
-    
 </head>
     
 <body>
-    
-     <div class="titulo" id="info-titulo">
-         
-        <h1>Reciclagem no Brasil e a desinformação</h1>
-        
-        <p id="titulo-p">
-            Entenda como informações incorretas prejudicam a já ínfima taxa de reciclagem
-            CORRETA de resíduos sólidos urbanos:
-        </p>
-         
-    </div>
-    
-    <div class="intro" id="info-intro">
-        
-        <h2 id="intro-h2">Cenário preocupante...</h2>
-        
-        <p id="intro-p">
-            Em janeiro de 2017, um estudo feito pelo <b>Ipea</b> (Instituto de Pesquisa Econômica
-            Aplicada) estimou que apenas 30% a 40% dos resíduos sólidos urbanos do Brasil são
-            reaproveitáveis para a reciclagem, e apenas 13% são de fato encaminhados para reciclagem.
-        </p>
-        
-    </div>
-    
-    <div class="slide1" id="info-slide1">
-        
-        <h2 id="slide1-h2">O motivo:</h2>
-        
-        <p id="slide1-p1">
-            Dentre as razões que nos levam a esse cenário, destaca-se a falta de informação da população.
-            Cerca de 66% dos brasileiros afirmam saber pouco ou nada a respeito de coleta seletiva
-            e 28% não sabem citar quais são as cores das lixeiras para coleta do material.
-        </p>
-        
-        <p id="slide1-p2">
-            O estudo mostra que o brasileiro sabe da importância da reciclagem para o meio ambiente,
-            mas 75% não separam os materiais recicláveis individualmente nos lixos que geram em casa.
-            Desses, 39% não separam nem mesmo o lixo orgânico do inorgânico. Além disso, 56% não utilizam
-            nenhum serviço de coleta seletiva.
-        </p>
-        
-    </div>
-    
-    <div class="slide2" id="info-slide2">
-        
-        <h2 id="slide2-h2">Quais resíduos são recicláveis?</h2>
-        
-        <p id="slide2-p1">
-            Um dos principais obstáculos para superar esse quadro é a falta de conhecimento
-            sobre quais materiais podem ser reciclados. Apenas 4% das pessoas sabem que embalagens longa
-            vida (TetraPak) são recicláveis.
-        </p>
-        
-        <p id="slide2-p2">
-            O índice melhora quando se fala em plástico (77%), vidro (64%), papel (50%) e alumínio (47%),
-            mas ainda está distante do ideal. Sobre garrafas PET, apenas 40% sabem que esse tipo de
-            material pode ser reciclado.
-        </p>
-        
-    </div>
-    
-    <div class="slide3" id="info-slide3">
-        
-        <h2 id="slide3-h2">Afinal, para onde vai o lixo?</h2>
-        
-        <p id="slide3-p1">Segundo a pesquisa, 59% das pessoas não sabem quem efetivamente recicla
-            os materiais. O processo ainda parece ser um mistério para boa parte da população, visto que
-            81% dos brasileiros afirmam não saber sobre cooperativas de reciclagem. Além disso, 58%
-            acreditam que o lixo vá para aterro sanitário ou lixão.
-        </p>
-        
-        <p id="slide3-p2">
-            Sobre esse ponto, há desafios a serem enfrentados. 49% das pessoas concordam que não é fácil
-            encontrar informações sobre coleta seletiva em suas cidades, enquanto 44% afirmam que o
-            serviço não é disponibilizado ou não sabem se isso ocorre no município.
-        </p>
-        
-    </div>
-    
-    <div class="slide4" id="info-slide4">
-        
-        <h2 id="slide4-h2">Associações, cooperativas e grupos informais</h2>
-        
-        <p id="slide4-p1">
-            A pesquisa também traz informações sobre como se dá a organização de catadores em
-            organizações voltadas à geração de trabalho e renda. Foram avaliadas associações,
-            cooperativas e grupos informais, e detectou-se que 40,3% encontra-se ainda na
-            informalidade, seguida pela forma de associação (31,3%) e de cooperativa (28,3%).
-        </p>
-        
-        <p id="slide4-p2">
-            Dados de 2010 revelam que cerca de 400 mil pessoas declararam ter como atividade remunerada
-            principal a coleta de materiais recicláveis no Brasil. De maneira geral, esse segmento social
-            envolve pessoas que trabalham em estruturas precárias, apesar de ser uma atividade
-            reconhecidamente benéfica para a sociedade.
-        </p>
-        
-    </div>
-    
-    <div class="slide5" id="info-slide5">
-        
-        <h2 id="slide5-h2">O futuro da reciclagem no Brasil</h2>
-        
-        <p id="slide5-p1">
-            Em outubro de 2017, a Ambev em parceria com a Coca-Cola Brasil lançou um programa conjunto
-            de reciclagem, chamado Reciclar pelo Brasil. A plataforma também conta com a parceria da
-            Associação Nacional dos Catadores e Catadoras de Materiais Recicláveis (Ancat).
-            Inicialmente, era integrado por 110 cooperativas e mais de 2500 cooperadosse estendendo por
-            61 cidades do Brasil, triando 41 mil toneladas de material reciclado até então.
-        </p>
-            
-        <p id="slide5-p2">
-            Em novembro de 2018, o projeto ganhou a participação das empresas Nestlé e Vigor e ampliou de
-            110 para 160 o número de cooperativas que recebem apoio, em 17 Estados, beneficiando 3 mil
-            catadores de recicláveis em 71 cidades.
+    <div class="container-fluid">
+        <div class="titulo" id="info-titulo">
+            <h1>Reciclagem no Brasil e a desinformação</h1>
 
-            “Nesta nova fase, com um aporte de 25% a mais de investimento, vamos gerar 45% mais impacto
-            positivo”, diz Thais Vojvodic, gerente de sustentabilidade da Coca-Cola Brasil."
-        </p>
-        
+            <p id="titulo-p">
+                Entenda como informações incorretas prejudicam a já ínfima taxa de reciclagem
+                CORRETA de resíduos sólidos urbanos:
+            </p>
+        </div>
     </div>
     
+    <div class="wrapper">
+        <div class="container-fluid">
+            <div class="intro" id="info-intro">
+                <h2 id="intro-h2">Cenário preocupante...</h2>
+
+                <img src="img/ipea.png" class="img-fluid" id="intro-img">
+
+                <p id="intro-p">
+                    Em janeiro de 2017, um estudo feito pelo <b>Ipea</b> (Instituto de Pesquisa Econômica
+                    Aplicada) estimou que no máximo <b>40%</b> dos resíduos sólidos urbanos do Brasil são
+                    reaproveitáveis para a reciclagem, e apenas <b>13%</b> são encaminhados para reciclagem.
+                </p>
+
+                <div id="intro-chart"></div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="slide1" id="info-slide1">
+                <h2 id="slide1-h2">O motivo:</h2>
+
+                <p id="slide1-p1">
+                    Dentre as razões que nos levam a esse cenário, destaca-se a falta de informação da
+                    população. Cerca de <b>66%</b> dos brasileiros afirmam saber pouco ou nada a respeito de coleta
+                    seletiva e <b>28%</b> não sabem citar quais são as cores das lixeiras para coleta do material.
+                </p>
+
+                <p id="slide1-p3">
+                    O estudo mostra que o brasileiro sabe da importância da reciclagem para o meio ambiente,
+                    mas <b>75%</b> não separam os materiais recicláveis nos lixos que geram em casa. Desses,
+                    <b>39%</b> não separam nem mesmo o lixo orgânico do inorgânico. Além disso, <b>56%</b>
+                    não utilizam nenhum serviço de coleta seletiva.
+                </p>
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="img/reciclavel.png" class="img-fluid">
+                    </div>
+
+                    <div class="col-md-2">
+                        <div id="slide1-chart1" class="chart"></div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="img/seco-umido.png" class="img-fluid">
+                    </div>
+
+                    <div class="col-md-2">
+                        <div id="slide1-chart2" class="chart"></div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="img/servico-coleta.png" class="img-fluid">
+                    </div>
+
+                    <div class="col-md-2">
+                        <div id="slide1-chart3" class="chart"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="slide2" id="info-slide2">
+                <h2 id="slide2-h2">Quais resíduos são recicláveis?</h2>
+
+                <p id="slide2-p1">
+                    Um dos principais obstáculos para superar esse quadro é a falta de conhecimento sobre
+                    quais materiais podem ser reciclados. Apenas <b>4%</b> das pessoas sabem que embalagens
+                    longa vida (TetraPak) são recicláveis.
+                </p>
+
+                <p id="slide2-p2">
+                    O índice melhora quando se fala em plástico (<b>77%</b>), vidro (<b>64%</b>), papel
+                    (<b>50%</b>) e alumínio (<b>47%</b>), mas ainda está distante do ideal. Sobre garrafas
+                    PET, apenas <b>40%</b> sabem que esse tipo de material pode ser reciclado.
+                </p>
+
+                <div id="slide2-chart" class="chart"></div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="slide3" id="info-slide3">
+                <h2 id="slide3-h2">Afinal, para onde vai o lixo?</h2>
+
+                <p id="slide3-p1">Segundo a pesquisa, <b>59%</b> das pessoas não sabem quem efetivamente
+                    recicla os materiais. O processo ainda parece um mistério para boa parte da população,
+                    visto que <b>81%</b> dos brasileiros afirmam não saber sobre cooperativas de reciclagem.
+                    Além disso, <b>58%</b> acreditam que o lixo vá para aterro sanitário ou lixão.
+                </p>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div id="slide3-chart1" class="chart"></div>
+                    </div>
+
+                    <div class="col-md-5">
+                        <img src="img/aterro.png" class="img-fluid">
+                    </div>
+                </div>
+
+                <p id="slide3-p3">
+                    Sobre esse ponto, há desafios a enfrentar. <b>49%</b> das pessoas concordam que não é
+                    fácil encontrar informações sobre coleta seletiva em suas cidades, enquanto <b>44%</b>
+                    afirmam que o serviço não é disponibilizado ou não sabem se isso ocorre no município.
+                </p>
+
+                <div class="row">
+                    <img src="img/coleta-seletiva.png" class="img-fluid">
+                </div>
+
+                <div class="row" id="slide3-charts">
+                    <div id="slide3-chart2" class="chart"></div>
+                    <div id="slide3-chart3" class="chart"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="slide4" id="info-slide4">
+                <h2 id="slide4-h2">Associações, cooperativas e grupos informais</h2>
+
+                <p id="slide4-p1">
+                    A pesquisa também traz informações sobre como se dá a organização de catadores em
+                    organizações voltadas à geração de trabalho e renda. Foram avaliadas associações,
+                    cooperativas e grupos informais, e detectou-se que <b>40,3%</b> encontra-se ainda na
+                    informalidade, seguida pela forma de associação (<b>31,3%</b>) e de cooperativa
+                    (<b>28,3%</b>).
+                </p>
+
+                <div id="slide4-chart" class="chart"></div>
+
+                <p id="slide4-p2">
+                    Dados de 2010 revelam que cerca de <b>400 mil</b> pessoas declararam como atividade
+                    remunerada principal a coleta de materiais recicláveis no Brasil. Geralmente, esse
+                    segmento social envolve pessoas que trabalham em estruturas precárias, apesar de ser uma
+                    atividade reconhecidamente benéfica para a sociedade.
+                </p>
+                <div class="container">
+                    <div class="row"></div>
+                        <img src="img/catadores.jpg" class="img-fluid" id="slide4-img">
+                    </div>
+
+                    <div class="row">
+                        <p id="slide4-img-caption">Foto: Agência Reuters</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="slide5" id="info-slide5">
+                <h2 id="slide5-h2">O futuro da reciclagem no Brasil</h2>
+
+                <img src="img/reciclar-brasil.png" class="img-fluid" id="slide5-img1">
+
+                <p id="slide5-p1">
+                    Em outubro de 2017, a parceria Ambev/Coca-Cola Brasil lançou um programa conjunto de
+                    reciclagem, o Reciclar pelo Brasil. A plataforma também tem participação da Associação
+                    Nacional dos Catadores e Catadoras de Materiais Recicláveis (Ancat). Inicialmente, era
+                    integrado por 110 cooperativas e mais de 2500 cooperados, estendendo-se por 61 cidades
+                    do Brasil, triando 41 mil toneladas de material reciclado até então.
+                </p>
+
+                <div id="slide5-img2">
+                    <div class="col-md-11">
+                        <div class="row">
+                            <img src="img/fluxograma-reciclar-brasil.png" class="img-fluid">
+                        </div>
+
+                        <div class="row">
+                            <span id="slide5-img2-caption">Como 'Reciclar pelo Brasil' funciona</span>
+                        </div>
+                    </div>
+                </div>
+
+                <p id="slide5-p2">
+                    Em novembro de 2018, o projeto ganhou a participação das empresas Nestlé e Vigor e
+                    ampliou de 110 para 160 o número de cooperativas que recebem apoio, em 17 Estados,
+                    beneficiando 3 mil catadores de recicláveis em 71 cidades.
+
+                    “Nesta nova fase, com um aporte de 25% a mais de investimento, vamos gerar 45% mais
+                    impacto positivo”, diz Thais Vojvodic, gerente de sustentabilidade da Coca-Cola Brasil."
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid">
+        <div class="rodape" id="info-rodape">
+            <p id="rodape-p">Texto retirado de:
+            <a href="https://www.bio3consultoria.com.br/dificuldade-de-reciclagem">
+            Maior dificuldade para a reciclagem no Brasil é a desinformação, revela pesquisa</a>
+            </p>
+        </div>
+    </div>
 </body>
     
 </html>
