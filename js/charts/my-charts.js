@@ -31,6 +31,7 @@ google.charts.load("current", {packages:['corechart']});
                                 role: "annotation" }]);
 
             var options = {
+                width: 580,
                 height: 200,
                 legend: { position: 'top', maxLines: 3 },
                 bar: { groupWidth: '50%' },
